@@ -1,11 +1,10 @@
-import { useState } from 'react'
 import Chat from './components/Chat/Chat'
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
+  console.log('COMMIT')
   return (
     <>
       <Chat />
